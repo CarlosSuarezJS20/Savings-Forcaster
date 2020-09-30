@@ -1,0 +1,44 @@
+
+h1 {
+ margin: none;
+ color: white;
+ background-color: tomato;
+}
+
+table {
+  margin-left: 100px;
+  align-self: center;
+  font-family: Arial;
+}
+
+th, td{
+  border: 1px solid black
+}
+
+input, label, select, button{
+  margin: 5px;
+  align-items: center;
+}
+
+
+.input-form {
+  align-self: center;
+  border: 1px solid black
+}
+
+#personal-expenses {
+  background-color: rgb(248, 225, 183);
+  width: 300px;
+}
+
+#home-expenses {
+  background-color: rgb(186, 248, 186);
+  width: 300px;
+}
+
+#income {
+  background-color: rgb(177, 214, 248);
+  width: 300px;
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Savings Forecaster</title>
+</head>
+<body> 
+<h1>Savings Forecaster</h1>
+<div class="input-form">
+  <label for="input">Item Name</label> 
+  <input type="text" name="Type-of-Input" placeholder="name" id="user-input">
+  <br>
+  <br>
+  <label for="input">Value</label> 
+  <input type="text" name="Type-of-Input" placeholder="$" id="user-input">
+  <br>
+  <br>
+  <label for="">Type of Item</label>
+  <select name="Type-of-Input" id="Type-of-Input">
+    <option value="choose One">Choose One</option>
+    <option value="income">Income</option>
+    <option value="Home-expense">Home Expense</option>
+    <option value="Personal-expense">Personal Expense</option>
+  </select>
+  <button>add Item</button>
+</div>
+<div>
+  <table>
+    <br>
+    <tr>
+      <th>Personal Expenses</th>
+      <th>Home Expenses</th>
+      <th >Incomes</th>
+    </tr>
+    <tr>
+      <td id="personal-expenses">
+        <ul></ul>
+      </td>
+      <td id="home-expenses">
+      </td>
+      <td id="income">
+        <ul></ul>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
