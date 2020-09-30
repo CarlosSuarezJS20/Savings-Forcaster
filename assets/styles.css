@@ -3,10 +3,11 @@ h1 {
  margin: none;
  color: white;
  background-color: tomato;
-}
+}     
 
 table {
   margin-left: 100px;
+  margin-right: 100px;
   align-self: center;
   font-family: Arial;
 }
